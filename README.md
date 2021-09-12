@@ -17,7 +17,7 @@ Para más información visita https://youtube-dl.org/
  - `-v ~/Music:/mp3`: los ficheros se guardarán en /mp3, por lo que se debe montar un volumen apuntando a esa ruta
  - `<url>`: se debe introducir la url o el ID de un video/lista de reproducción para la descarga de ésta.
 
-En el siguiente comando, se muestra un ejemplo en el que descargarás un video de youtube en formato mp3
+En el siguiente comando, se muestra un ejemplo en el que se descargará un video de youtube 
 
     docker run -v ~/Music:/mp3 joseaeltala/youtube-dl \
     'https://www.youtube.com/watch?v=BEm0AjTbsac'
