@@ -14,7 +14,7 @@ Para más información visita https://youtube-dl.org/
 
     docker run --rm -v <path>:/mp3 joseaeltala/youtube-dl \
     '<url>'
-- `--rm`: borra el contenedor automaticamente cuando se pare
+- `--rm`: borra el contenedor automaticamente cuando termine su ejecución
  - `-v ~/Music:/mp3`: los ficheros se guardarán en /mp3, por lo que se debe montar un volumen apuntando a esa ruta
  - `<url>`: se debe introducir la url o el ID de un video/lista de reproducción para la descarga de ésta.
 
